@@ -1,0 +1,48 @@
+body {
+  font-weight:bold;
+  background:beige;
+}
+
+table { 
+  display: table;
+  width: 60%;
+  table-layout: fixed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-collapse: collapse;
+}
+
+tbody {
+  outline:3px solid #E8E8E8;
+}
+
+td,th {
+  border:2px solid #fff;
+}
+
+td {
+  background:#E8E8E8;
+}
+th { 
+  background:#D3D3D3; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 10px; 
+  text-align: center; 
+}
+h1.title {
+  font-size:1.2rem;
+  width:50vw;
+}
+
+@media (max-width:600px) {
+  td,th,h1.title {
+    font-size:0.8rem;
+  }
+  table {
+    width:95vw;
+  }
+}
