@@ -1,6 +1,6 @@
 body {
   font-weight:bold;
-  background:beige;
+  background:#f5deb3;
 }
 
 table { 
@@ -23,10 +23,10 @@ td,th {
 }
 
 td {
-  background:#E8E8E8;
+  background:#eeeeee;
 }
 th { 
-  background:#D3D3D3; 
+  background:#cccccc; 
   font-weight: bold; 
 }
 td, th { 
